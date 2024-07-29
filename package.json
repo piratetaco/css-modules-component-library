@@ -1,0 +1,30 @@
+{
+  "name": "css-modules-component-library",
+  "version": "1.0.0",
+  "description": "test to see if I can replicate the next out of order bug",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piratetaco/css-modules-component-library.git"
+  },
+  "keywords": [
+    "css-modules", "nextjs", "out of order"
+  ],
+  "author": "Beatrice Shinners",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piratetaco/css-modules-component-library/issues"
+  },
+  "homepage": "https://github.com/piratetaco/css-modules-component-library#readme",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
+  }
+}

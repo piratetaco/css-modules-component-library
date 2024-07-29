@@ -1,0 +1,37 @@
+.baseCell {
+  display: flex;
+}
+
+.top {
+  border-top: 1px solid gray;
+}
+
+.bottom {
+  border-bottom: 1px solid gray;
+}
+
+.topBottom {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.topOnlySmallScreen {
+  @media (max-width: 400px) {
+    border-top: 1px solid gray;
+  }
+}
+
+.bottomExcludeLeading {
+  position: relative;
+  border-bottom: 1px solid transparent;
+  overflow: hidden;
+
+  > *:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid gray;
+  }
+}

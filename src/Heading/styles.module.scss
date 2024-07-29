@@ -1,0 +1,75 @@
+
+.heading2 {
+  color: black;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: var(--heading-margin);
+}
+
+.promotion {
+  color: red;
+}
+
+.fontSize1 {
+  font-size: 12px;
+}
+
+.fontSize2 {
+  font-size: 14px;
+}
+
+.fontSize3 {
+  font-size: 16px;
+}
+
+.fontSize4 {
+  font-size: 20px;
+}
+
+.fontSize5 {
+  font-size: 24px;
+}
+
+.noMargin {
+  --heading-margin: 0;
+}
+
+.x1Margin {
+  --heading-margin: 4px;
+}
+
+.x2Margin {
+  --heading-margin: 8px;
+}
+
+.x3Margin {
+  --heading-margin: 12px;
+}
+
+.x4Margin {
+  --heading-margin: 16px;
+}
+
+.x5Margin {
+  --heading-margin: 20px;
+}
+
+.x6Margin {
+  --heading-margin: 24px;
+}
+
+.x7Margin {
+  --heading-margin: 28px;
+}
+
+.x8Margin {
+  --heading-margin: 32px;
+}
+
+.x9Margin {
+  --heading-margin: 36px;
+}
+
+.x10Margin {
+  --heading-margin: 40px;
+}

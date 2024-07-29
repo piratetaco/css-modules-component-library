@@ -1,0 +1,39 @@
+.cellSkinny {
+  background-color: white;
+  padding: 12px;
+  box-sizing: border-box;
+  min-height: 44px;
+  color: black;
+  position: relative;
+}
+
+.renderleadingHeading {
+  margin-left: 16px;
+}
+
+.wrapper {
+  align-self: center;
+  text-align: left;
+}
+
+.borderOffset {
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 16px;
+    height: 1px;
+    background: white;
+  }
+
+  &::after {
+    left: auto;
+    right: 0;
+  }
+}
+
+.trailingSpan {
+  margin-left: auto;
+}
